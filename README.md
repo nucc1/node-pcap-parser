@@ -15,6 +15,8 @@ var parser = pcapp.parse('/path/to/file.pcap');
 parser.on('packet', function(packet) {
   // do your packet processing
 });
+
+parser.start(); //start processing stream and emiting events.
 ```
 
 ## Events
